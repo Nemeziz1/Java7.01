@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 name: Java CI # как называется Workflow
 
 on: [push] # когда срабатывает (на push)
@@ -15,7 +16,7 @@ jobs: # какие задачи делаем
           java-version: 11 # версия для установки
       - name: Build with Maven
         run: mvn -B -e verify # запускаем Maven
-=======
+d888379c0a67c8c6054d87c4942e1335bde7597a
 # This workflow will build a Java project with Maven
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
@@ -40,4 +41,6 @@ jobs:
         java-version: 11
     - name: Build with Maven
       run: mvn -B package --file pom.xml
->>>>>>> d888379c0a67c8c6054d87c4942e1335bde7597a
+HEAD
+d888379c0a67c8c6054d87c4942e1335bde7597a
+d888379c0a67c8c6054d87c4942e1335bde7597a
